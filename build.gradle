@@ -23,6 +23,7 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-validation"
     implementation "org.springframework.boot:spring-boot-devtools"
     implementation "org.apache.commons:commons-lang3:$commonsLang3Version"
+    implementation 'io.pivotal.cfenv:java-cfenv-boot:2.4.0'
     implementation 'org.flywaydb:flyway-core'
 
     runtimeOnly "org.postgresql:postgresql"
@@ -83,15 +84,15 @@ task jsTest(type: Exec) {
 }
 test.dependsOn(jsTest)
 
-task jsLint(type: Exec) {
-    group = "Parrit"
-    description = "Checks the javascript code syntax"
-
-    workingDir = "$project.projectDir/frontend"
-    commandLine = "./node_modules/.bin/eslint"
-    args = ["--config", ".eslintrc.json", "."]
-}
-jsTest.dependsOn(jsLint)
+//task jsLint(type: Exec) {
+//    group = "Parrit"
+//    description = "Checks the javascript code syntax"
+//
+//    workingDir = "$project.projectDir/frontend"
+//    commandLine = "./node_modules/.bin/eslint"
+//    args = ["--config", ".eslintrc.json", "."]
+//}
+//jsTest.dependsOn(jsLint)
 
 task jsBuild(type: Exec) {
     group = "Parrit"
