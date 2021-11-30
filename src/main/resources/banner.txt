@@ -1,11 +1,8 @@
-${AnsiColor.BRIGHT_CYAN}     .---.${AnsiColor.BRIGHT_RED}__      __${AnsiColor.BRIGHT_GREEN}.---.
-${AnsiColor.BRIGHT_CYAN}     ( /${AnsiColor.BRIGHT_BLACK}o${AnsiColor.BRIGHT_RED}|__\    /__|${AnsiColor.BRIGHT_BLACK}o${AnsiColor.BRIGHT_GREEN}\  )
-${AnsiColor.BRIGHT_CYAN}      \ \ /${AnsiColor.BRIGHT_RED}-`     `-${AnsiColor.BRIGHT_GREEN}\ / /
-${AnsiColor.BRIGHT_CYAN}      ,) (,         ${AnsiColor.BRIGHT_GREEN},) (,
-${AnsiColor.BRIGHT_CYAN}     //   \\       ${AnsiColor.BRIGHT_GREEN}//   \\
-${AnsiColor.BRIGHT_CYAN}    {(     )}     ${AnsiColor.BRIGHT_GREEN}{(     )}
-${AnsiColor.YELLOW}=====${AnsiColor.BRIGHT_RED}""${AnsiColor.YELLOW}===${AnsiColor.BRIGHT_RED}""${AnsiColor.YELLOW}=======${AnsiColor.BRIGHT_RED}""${AnsiColor.YELLOW}===${AnsiColor.BRIGHT_RED}""${AnsiColor.YELLOW}=====
-${AnsiColor.BRIGHT_CYAN}      |||||         ${AnsiColor.BRIGHT_GREEN}|||||
-${AnsiColor.BRIGHT_CYAN}       |||           ${AnsiColor.BRIGHT_GREEN}|||
-${AnsiColor.BRIGHT_CYAN}        |             ${AnsiColor.BRIGHT_GREEN}|
-${AnsiStyle.BOLD}${AnsiColor.BRIGHT_MAGENTA}Running Spring Boot ${spring-boot.formatted-version}
+
+  _________ __                        __
+ /   _____//  |_  ___________  ______/  |________  ____   ____ ______   ___________  ______
+ \_____  \\   __\/  _ \_  __ \/     \   __\_  __ \/  _ \ /  _ \\____ \_/ __ \_  __ \/  ___/
+ /        \|  | (  <_> )  | \/  Y Y  \  |  |  | \(  <_> |  <_> )  |_> >  ___/|  | \/\___ \
+/_______  /|__|  \____/|__|  |__|_|  /__|  |__|   \____/ \____/|   __/ \___  >__|  /____  >
+        \/                         \/                          |__|        \/           \/
+${AnsiStyle.BOLD}Running Spring Boot ${spring-boot.formatted-version}
